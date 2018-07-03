@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A1C2C2220BE580C002D7664 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1C2C2120BE580C002D7664 /* AppDelegate.m */; };
+		5A1C2C2520BE580C002D7664 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1C2C2420BE580C002D7664 /* ViewController.m */; };
+		5A1C2C2820BE580C002D7664 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A1C2C2620BE580C002D7664 /* Main.storyboard */; };
+		5A1C2C2A20BE5810002D7664 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A1C2C2920BE5810002D7664 /* Assets.xcassets */; };
+		5A1C2C2D20BE5810002D7664 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A1C2C2B20BE5810002D7664 /* LaunchScreen.storyboard */; };
+		5A1C2C3020BE5810002D7664 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1C2C2F20BE5810002D7664 /* main.m */; };
+		5A1C2C3820BE594F002D7664 /* EOCNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1C2C3720BE594F002D7664 /* EOCNextViewController.m */; };
+		5A1C2C3C20BE5BA1002D7664 /* EOCWeChatFloatingBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1C2C3B20BE5BA1002D7664 /* EOCWeChatFloatingBtn.m */; };
+		5A1C2C4220BE783A002D7664 /* EOCSemiCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1C2C4120BE783A002D7664 /* EOCSemiCircleView.m */; };
+		5A1C2C4520BE8AFA002D7664 /* EOCAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1C2C4420BE8AFA002D7664 /* EOCAnimator.m */; };
+		5A96CDE420BFD8E200C3FD80 /* EOCAnimView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A96CDE320BFD8E200C3FD80 /* EOCAnimView.m */; };
+		5A96CDE720C00D0400C3FD80 /* EOCInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A96CDE520C00D0400C3FD80 /* EOCInteractiveTransition.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A1C2C1D20BE580C002D7664 /* 微信浮窗公开课.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "微信浮窗公开课.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A1C2C2020BE580C002D7664 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A1C2C2120BE580C002D7664 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A1C2C2320BE580C002D7664 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5A1C2C2420BE580C002D7664 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5A1C2C2720BE580C002D7664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A1C2C2920BE5810002D7664 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A1C2C2C20BE5810002D7664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A1C2C2E20BE5810002D7664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A1C2C2F20BE5810002D7664 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A1C2C3620BE594F002D7664 /* EOCNextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCNextViewController.h; sourceTree = "<group>"; };
+		5A1C2C3720BE594F002D7664 /* EOCNextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCNextViewController.m; sourceTree = "<group>"; };
+		5A1C2C3A20BE5BA1002D7664 /* EOCWeChatFloatingBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCWeChatFloatingBtn.h; sourceTree = "<group>"; };
+		5A1C2C3B20BE5BA1002D7664 /* EOCWeChatFloatingBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCWeChatFloatingBtn.m; sourceTree = "<group>"; };
+		5A1C2C4020BE783A002D7664 /* EOCSemiCircleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCSemiCircleView.h; sourceTree = "<group>"; };
+		5A1C2C4120BE783A002D7664 /* EOCSemiCircleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCSemiCircleView.m; sourceTree = "<group>"; };
+		5A1C2C4320BE8AFA002D7664 /* EOCAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCAnimator.h; sourceTree = "<group>"; };
+		5A1C2C4420BE8AFA002D7664 /* EOCAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCAnimator.m; sourceTree = "<group>"; };
+		5A96CDE220BFD8E200C3FD80 /* EOCAnimView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCAnimView.h; sourceTree = "<group>"; };
+		5A96CDE320BFD8E200C3FD80 /* EOCAnimView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCAnimView.m; sourceTree = "<group>"; };
+		5A96CDE520C00D0400C3FD80 /* EOCInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCInteractiveTransition.m; sourceTree = "<group>"; };
+		5A96CDE620C00D0400C3FD80 /* EOCInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCInteractiveTransition.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A1C2C1A20BE580C002D7664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A1C2C1420BE580C002D7664 = {
+			isa = PBXGroup;
+			children = (
+				5A1C2C1F20BE580C002D7664 /* 微信浮窗公开课 */,
+				5A1C2C1E20BE580C002D7664 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A1C2C1E20BE580C002D7664 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A1C2C1D20BE580C002D7664 /* 微信浮窗公开课.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A1C2C1F20BE580C002D7664 /* 微信浮窗公开课 */ = {
+			isa = PBXGroup;
+			children = (
+				5A1C2C2020BE580C002D7664 /* AppDelegate.h */,
+				5A1C2C2120BE580C002D7664 /* AppDelegate.m */,
+				5A1C2C2320BE580C002D7664 /* ViewController.h */,
+				5A1C2C2420BE580C002D7664 /* ViewController.m */,
+				5A1C2C3620BE594F002D7664 /* EOCNextViewController.h */,
+				5A1C2C3720BE594F002D7664 /* EOCNextViewController.m */,
+				5A1C2C3920BE5B6A002D7664 /* 微信浮窗 */,
+				5A1C2C2620BE580C002D7664 /* Main.storyboard */,
+				5A1C2C2920BE5810002D7664 /* Assets.xcassets */,
+				5A1C2C2B20BE5810002D7664 /* LaunchScreen.storyboard */,
+				5A1C2C2E20BE5810002D7664 /* Info.plist */,
+				5A1C2C2F20BE5810002D7664 /* main.m */,
+			);
+			path = "微信浮窗公开课";
+			sourceTree = "<group>";
+		};
+		5A1C2C3920BE5B6A002D7664 /* 微信浮窗 */ = {
+			isa = PBXGroup;
+			children = (
+				5A1C2C3A20BE5BA1002D7664 /* EOCWeChatFloatingBtn.h */,
+				5A1C2C3B20BE5BA1002D7664 /* EOCWeChatFloatingBtn.m */,
+				5A1C2C4020BE783A002D7664 /* EOCSemiCircleView.h */,
+				5A1C2C4120BE783A002D7664 /* EOCSemiCircleView.m */,
+				5A1C2C4320BE8AFA002D7664 /* EOCAnimator.h */,
+				5A1C2C4420BE8AFA002D7664 /* EOCAnimator.m */,
+				5A96CDE620C00D0400C3FD80 /* EOCInteractiveTransition.h */,
+				5A96CDE520C00D0400C3FD80 /* EOCInteractiveTransition.m */,
+				5A96CDE220BFD8E200C3FD80 /* EOCAnimView.h */,
+				5A96CDE320BFD8E200C3FD80 /* EOCAnimView.m */,
+			);
+			path = "微信浮窗";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A1C2C1C20BE580C002D7664 /* 微信浮窗公开课 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A1C2C3320BE5810002D7664 /* Build configuration list for PBXNativeTarget "微信浮窗公开课" */;
+			buildPhases = (
+				5A1C2C1920BE580C002D7664 /* Sources */,
+				5A1C2C1A20BE580C002D7664 /* Frameworks */,
+				5A1C2C1B20BE580C002D7664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "微信浮窗公开课";
+			productName = "微信浮窗公开课";
+			productReference = 5A1C2C1D20BE580C002D7664 /* 微信浮窗公开课.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A1C2C1520BE580C002D7664 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "八点钟学院";
+				TargetAttributes = {
+					5A1C2C1C20BE580C002D7664 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 5A1C2C1820BE580C002D7664 /* Build configuration list for PBXProject "微信浮窗公开课" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A1C2C1420BE580C002D7664;
+			productRefGroup = 5A1C2C1E20BE580C002D7664 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A1C2C1C20BE580C002D7664 /* 微信浮窗公开课 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A1C2C1B20BE580C002D7664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A1C2C2D20BE5810002D7664 /* LaunchScreen.storyboard in Resources */,
+				5A1C2C2A20BE5810002D7664 /* Assets.xcassets in Resources */,
+				5A1C2C2820BE580C002D7664 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A1C2C1920BE580C002D7664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A96CDE720C00D0400C3FD80 /* EOCInteractiveTransition.m in Sources */,
+				5A1C2C2520BE580C002D7664 /* ViewController.m in Sources */,
+				5A1C2C3020BE5810002D7664 /* main.m in Sources */,
+				5A1C2C4220BE783A002D7664 /* EOCSemiCircleView.m in Sources */,
+				5A1C2C3C20BE5BA1002D7664 /* EOCWeChatFloatingBtn.m in Sources */,
+				5A1C2C2220BE580C002D7664 /* AppDelegate.m in Sources */,
+				5A1C2C3820BE594F002D7664 /* EOCNextViewController.m in Sources */,
+				5A1C2C4520BE8AFA002D7664 /* EOCAnimator.m in Sources */,
+				5A96CDE420BFD8E200C3FD80 /* EOCAnimView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5A1C2C2620BE580C002D7664 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A1C2C2720BE580C002D7664 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A1C2C2B20BE5810002D7664 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A1C2C2C20BE5810002D7664 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A1C2C3120BE5810002D7664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5A1C2C3220BE5810002D7664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A1C2C3420BE5810002D7664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V272W7YD5Y;
+				INFOPLIST_FILE = "微信浮窗公开课/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.study.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A1C2C3520BE5810002D7664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V272W7YD5Y;
+				INFOPLIST_FILE = "微信浮窗公开课/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.study.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A1C2C1820BE580C002D7664 /* Build configuration list for PBXProject "微信浮窗公开课" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A1C2C3120BE5810002D7664 /* Debug */,
+				5A1C2C3220BE5810002D7664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A1C2C3320BE5810002D7664 /* Build configuration list for PBXNativeTarget "微信浮窗公开课" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A1C2C3420BE5810002D7664 /* Debug */,
+				5A1C2C3520BE5810002D7664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A1C2C1520BE580C002D7664 /* Project object */;
+}
